@@ -1,7 +1,12 @@
+import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class TestingWithJUnit {
+
 
 @Test
     public void testHelloWorld() {
@@ -54,5 +59,17 @@ public class TestingWithJUnit {
         assertNotNull(phone);
         assertNull(laptop);
     }
+
+//    @Before
+//    public void runThisBefore() {
+//        this.names = new ArrayList<>();
+//        this.names.add("Douglas");
+//    }
+//
+//    @Test
+//    public void testIfNamesIsInitialized(){
+//        assertNotNull(names);
+//    }
+
 
 }
